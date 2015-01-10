@@ -1,0 +1,36 @@
+{
+  "name": "phantom-bridge",
+  "version": "0.0.0",
+  "description": "Simple PhantomJS bridge",
+  "license": "MIT",
+  "repository": "sindresorhus/phantom-bridge",
+  "author": {
+    "name": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "http://sindresorhus.com"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "phantomjs",
+    "phantom",
+    "headless",
+    "browser",
+    "bridge",
+    "website",
+    "web"
+  ],
+  "dependencies": {
+    "phantomjs": "1.9.2-6"
+  },
+  "devDependencies": {
+    "ava": "0.0.4"
+  }
+}
