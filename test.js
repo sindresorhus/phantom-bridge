@@ -1,14 +1,14 @@
-'use strict';
-var test = require('ava');
-var phantomBridge = require('./');
+import test from 'ava';
+import fn from './';
 
-test(function (t) {
-	var cp = phantomBridge('fixture.js');
+test.cb(t => {
+	const cp = fn('fixture.js');
 
 	cp.stdout.setEncoding('utf8');
 
-	cp.stdout.once('data', function (data) {
-		t.assert(data.trim() === 'fixture');
+	cp.stdout.once('data', data => {
+		cp.kill();
+		t.is(data.trim(), 'fixture');
 		t.end();
 	});
 });
