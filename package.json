@@ -28,7 +28,7 @@
     "web"
   ],
   "dependencies": {
-    "phantomjs": "^1.9.18"
+    "phantomjs": "^2.1.2"
   },
   "devDependencies": {
     "ava": "*"
