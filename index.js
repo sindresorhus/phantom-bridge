@@ -1,7 +1,7 @@
 'use strict';
 var path = require('path');
 var spawn = require('child_process').spawn;
-var phantomjs = require('phantomjs').path;
+var phantomjs = require('phantomjs-prebuilt').path;
 
 module.exports = function (file, args) {
 	if (!phantomjs) {
