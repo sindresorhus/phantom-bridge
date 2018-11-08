@@ -1,3 +1,9 @@
+# Deprecated
+
+[PhantomJS is deprecated.](https://github.com/ariya/phantomjs/issues/15344)
+
+---
+
 # phantom-bridge [![Build Status](https://travis-ci.org/sindresorhus/phantom-bridge.svg?branch=master)](https://travis-ci.org/sindresorhus/phantom-bridge)
 
 > Simple [PhantomJS](http://phantomjs.org) bridge
